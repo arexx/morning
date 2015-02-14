@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/static/css/master.css">
+
+	<script type-"text/javascript">
+	var loadTime = 0;
+
+	function onLoad() {
+		loadTime = new Date();
+		setInterval(check, 5000);
+	}
+
+	function check() {
+		var millisPassed = new Date() - loadTime;
+		var secondsPassed = millisPassed / 1000;
+		var minutesPassed = secondsPassed / 60;
+
+		if (minutesPassed > 15) {
+			document.location.reload();
+		}
+
+		document.getElementById('ago').innerHTML = Math.floor(minutesPassed);
+	}
+	</script>
+
+</head>
+<body onload="onLoad()">
+	<div id="screen-720p">
+		<div id="padding">
+			<div id="forecast-holder">
+				<iframe 
+					id="forecast_embed" 
+					type="text/html" 
+					frameborder="0" 
+					height="245" 
+					width="100%" 
+					src="http://forecast.io/embed/#lat=40.7600&amp;lon=-73.9350&amp;name=Astoria"></iframe>
+				<!--<img src="/static/img/weather-example.png"/>-->
+			</div>
+			<div id="mta-holder">
+				<iframe
+					id="mta_embed"
+					type="text/html"
+					frameborder="0"
+					scrolling="no"
+					seamless="seamless"
+					height="428"
+					width="228"
+					src="http://service.mta.info/ServiceStatus/status.html"></iframe>
+			</div>
+			<div id="wunderlist-holder">
+				{% for task in tasks %}
+					<div class="task">
+						<div class="owner">
+							{% if task.assignee_id == 12138533 %}
+								Alex
+							{% elif task.assignee_id == 12138738 %}
+								Colleen
+							{% else %}
+								{{ task.assignee_id }}
+							{% endif %}
+						</div>
+						{{ task.title }}
+					</div>
+				{% endfor %}
+			</div>
+			<div id="status">
+				<span id="ago">0</span> minutes ago
+			</div>
+		</div>
+	</div>
+</body>
+</html>

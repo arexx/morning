@@ -1,0 +1,77 @@
+body {
+  background-color: #000;
+  color: white;
+  margin: 0;
+  font-family: "Helvetica Neue", sans-serif;
+}
+#screen-720p {
+  width: 1280px;
+  height: 720px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -360px;
+  margin-left: -640px;
+}
+#padding {
+  padding: 10px 100px;
+}
+#forecast-holder {
+  background-color: #FFF;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-filter: invert(100%) grayscale(100%) brightness(180%);
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+#forecast-holder img,
+#forecast-holder iframe {
+  margin-top: -40px;
+}
+#forecast-holder img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: invert(100%);
+}
+#mta-holder {
+  float: left;
+  margin-left: 100px;
+  margin-right: 50px;
+  overflow: hidden;
+  width: 228px;
+  height: 326px;
+  background-color: #FFF;
+  -webkit-filter: invert(100%) grayscale(100%) brightness(180%);
+}
+#mta_embed {
+  overflow: hidden;
+  position: relative;
+  top: -73px;
+}
+#wunderlist-holder {
+  height: 472px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.task {
+  margin-left: 20px;
+  margin-right: 35px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.task .owner {
+  float: right;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  position: relative;
+  top: 0.2em;
+}
+#status {
+  position: absolute;
+  top: 650px;
+  left: 280px;
+  font-size: 10px;
+}
