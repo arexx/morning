@@ -31,6 +31,116 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
+	"\/hello\/static\/img\/123.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 769,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/123.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/123.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/456.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 992,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/456.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/456.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/7.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 602,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/7.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/7.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/ace.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 966,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/ace.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/ace.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/bdfm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 907,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/bdfm.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/bdfm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/g.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 701,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/g.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/g.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/jz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 769,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/jz.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/jz.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/l.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 491,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/l.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/l.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/nqr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 832,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/nqr.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/nqr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/hello\/static\/img\/sir.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 753,
+		"inputAbbreviatedPath": "\/hello\/static\/img\/sir.png",
+		"outputAbbreviatedPath": "\/hello\/static\/img\/sir.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/hello\/static\/img\/weather-example.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -62,29 +172,11 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/hello\/templates\/db.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/hello\/templates\/db.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/hello\/templates\/morning.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/hello\/templates\/morning.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
