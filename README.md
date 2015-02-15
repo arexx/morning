@@ -6,3 +6,7 @@ You'll need to create hello/secrets.py using this template to run this project y
 	    CLIENT_ID = "<YOUR WUNDERLIST CLIENT APP ID>"
 	    ACCESS_TOKEN = "<YOUR WUNDERLIST USER ACCESS TOKEN>"
 	    LIST_ID = "<YOUR WUNDERLIST LIST ID>"
+
+	class FORECAST_IO(object):
+		API_KEY = "<YOUR FORECAST.IO API KEY>"
+		LOCATION = "<YOUR GEOGRAPHIC LOCATION>"
