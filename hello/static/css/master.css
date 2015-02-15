@@ -52,7 +52,8 @@ body {
 .task {
   margin-left: 20px;
   margin-right: 35px;
-  border: 1px solid #AAA;
+  border-color: white;
+  border-bottom: 1px solid #AAA;
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 10px;

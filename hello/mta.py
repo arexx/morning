@@ -15,13 +15,13 @@ def get_mta_html():
 		  .list_h { background-image: none; }
 		  .gw { color: black; }
 		  td.subwayCategory span { color: white; position: relative; top: 1px; left: 2px; }
-		  td.subwayCategory span.subway_servicechange { color: #D00 }
-		  td.subwayCategory span.subway_plannedwork { color: #D00 }
-		  td.subwayCategory span.subway_suspended { color: #D00 }
-		  td.subwayCategory span.subway_delays { color: #D00 }
+		  td.subwayCategory span.subway_servicechange,
+		  td.subwayCategory span.subway_plannedwork,
+		  td.subwayCategory span.subway_suspended,
+		  td.subwayCategory span.subway_delays { color: #F66; font-weight: bold; }
 		</style>
 	"""
 	html = html.replace("</body>", extra_style + "</body>")
-	html = html.replace("widgetImages/bullets/", "/static/img/")
+	html = html.replace("widgetImages/bullets/", "/static/img/mta/mono/")
 	html = html.replace(".gif", ".png")
 	return html
