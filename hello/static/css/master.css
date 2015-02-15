@@ -65,6 +65,18 @@ body {
   position: relative;
   top: 0.2em;
 }
+.task .due {
+  text-transform: uppercase;
+  font-size: 0.75em;
+  float: left;
+  width: 70px;
+  position: relative;
+  top: 0.2em;
+}
+.task .due.soon {
+  color: #F66;
+  font-weight: bold;
+}
 #status {
   position: absolute;
   top: 180px;

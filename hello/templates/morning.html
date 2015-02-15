@@ -53,6 +53,17 @@
 			<div id="wunderlist-holder">
 				{% for task in tasks %}
 					<div class="task">
+						<div class="due{% if task.time_to_go and task.time_to_go.days < 3 %} soon{% endif %}">
+							{% if task.time_to_go %}
+								{% if task.time_to_go.days < 0 %}
+									Overdue
+								{% else %}
+									{{ task.time_to_go.days }} day{{ task.time_to_go.days|pluralize }}
+								{% endif %}
+							{% else %}
+								&nbsp;
+							{% endif %}
+						</div>
 						<div class="owner">
 							{% if task.assignee_id == 12138533 %}
 								Alex
