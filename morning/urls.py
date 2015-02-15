@@ -11,6 +11,8 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^$', hello.views.index, name='index'),
+    url(r'^forecast$', hello.views.forecast, name='forecast'),
     url(r'^admin/', include(admin.site.urls)),
+
 
 )
